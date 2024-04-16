@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Typography } from "@mui/material";
-
+import "./navbar.css";
 export default function Navbar(props) {
   return (
     <AppBar position="static">
