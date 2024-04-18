@@ -6,7 +6,7 @@ A React-based canvas editor. It have features similar to canva. User can create 
 The project can be started in developement mode using the following instructions:
 
 #clone repository
-git clone https://github.com/React-Canvas-Editor/react-canvas-editor.git
+git clone https://github.com//react-canvas-editor.git
 
 #install dependencies
 npm install

@@ -21,6 +21,7 @@ import {
 } from "@mui/material";
 import Add from "@mui/icons-material/Add";
 import Remove from "@mui/icons-material/Remove";
+import Footer from "../Footer/Footer";
 
 class Editor extends Component {
   constructor(props) {
@@ -432,6 +433,7 @@ class Editor extends Component {
             className="download"
             href={this.state.href}
             onClick={(e) => this.download(e)}
+            style={{ color: "white" }}
           >
             Download
           </Button>
@@ -533,6 +535,7 @@ class Editor extends Component {
             ref={this.container}
           ></canvas>
         </div>
+        <Footer />
       </div>
     );
   }

@@ -6,7 +6,7 @@ export default function Navbar(props) {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          React Canvas Editor
+          Canvas
         </Typography>
         {props.children}
       </Toolbar>
